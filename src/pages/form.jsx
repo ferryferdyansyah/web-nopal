@@ -31,7 +31,6 @@ const Form = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        // Handle form submission logic here
         console.log(formData);
     };
 
@@ -47,6 +46,7 @@ const Form = () => {
                     </div>
                     <div className="bg-custom w-full flex-grow mt-4 rounded-xl p-4 flex flex-col shadow-md">
                         <div className="bg-gray-100 flex-grow m-4 rounded-xl p-4 shadow-md">
+                            {/* RESPONSIVE FORM START */}
                             <form onSubmit={handleSubmit}>
                                 <div className="mb-4">
                                     <label className="block mb-2">No</label>
@@ -135,6 +135,7 @@ const Form = () => {
                                     </button>
                                 </div>
                             </form>
+                            {/* RESPONSIVE FORM END */}
                         </div>
                     </div>
                 </div>

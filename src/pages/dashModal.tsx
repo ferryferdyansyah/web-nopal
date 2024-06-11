@@ -4,6 +4,8 @@ import Navbar from "../components/navbar";
 import "../assets/css/styles.css";
 import { FaEdit, FaTrashAlt } from "react-icons/fa";
 
+// GENERATE MODAL FOR ADD NEW ASSET FROM CHATGPT
+
 const Dashboard: React.FC = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [formData, setFormData] = useState({

@@ -16,6 +16,7 @@ function App() {
                 {/* <Sidebar /> */}
                 <div className="flex-grow">
                     <Routes>
+                        {/* ADD YOUR ROUTES */}
                         <Route path="/form" element={<Form />} />
                         <Route path="/dashboard" element={<Dashboard />} />
                         <Route path="/approval" element={<Approval />} />

@@ -17,6 +17,7 @@ function Dashboard() {
                         <p className="font-poppins">The following is a list of assets in the database</p>
                     </div>
                     <div className="pt-6">
+                        {/* USE LINK COMPONENT TO NAVIGATE */}
                         <button className="px-4 py-2 bg-red-500 text-white text-xs rounded font-poppins">
                             <Link to="/form">
                             + ADD NEW ASSET
